@@ -61,7 +61,7 @@ function removeItemFromCart(itemToRemove) { 
 
 
 function placeOrder(cardNumber) {
-  if (cardNumber !== ' ') { 
+  if (cardNumber !== '') { 
     var x = total();
     cart.splice(0, cart.length)
     
